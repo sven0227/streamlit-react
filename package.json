@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": [
+    "streamlit-component-lib-react-hooks",
+    "template/my_component/frontend"
+  ],
+  "name": "streamlit-component-template-react-hooks",
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "lint-staged": "^12.4.0",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
